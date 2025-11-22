@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.Python
+.env
+.venv
+venv/
+ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Data / Artifacts
+results/
+Results/*
+!Results/README.md
+*.onnx
+*.pth
+*.pt
+*.log
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cache
+.cache/
+
+# Gradio temporary
+gradio_cached_examples/
+
+# LanguageTool cache
+language_tool_python_cache/
